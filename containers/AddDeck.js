@@ -29,7 +29,7 @@ class AddDeckContainer extends React.Component {
       this.setState({
         title: '',
       })
-      this.props.navigation.dispatch(NavigationActions.back({key: 'AddDeck'}))
+      this.props.navigation.dispatch(NavigationActions.back({key: null}))
     }
   }
 
